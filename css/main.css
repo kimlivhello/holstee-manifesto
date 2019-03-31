@@ -1,0 +1,95 @@
+/* peach f16059 */
+/* dark blue 4257ad */
+/* light blue d0fef5 */
+/* teal 4f9ea8 */
+/* border e4dfda */
+
+/* border 10 px */
+/* block 200px wide  */
+/* block 800px height */
+
+/* font-family: 'Oswald', sans-serif; */
+/* font-family: 'Quattrocento', serif; */
+
+/* header 1 font size 42, spacing 12pts between*/
+/* header 2 font size 19 */
+/* p text size 14, spacing 6 */
+
+
+body {
+    width: 420px;
+}
+
+.column {
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+}
+
+section {
+    float: left;
+    margin: 0px;
+    text-align: center;
+}
+
+section h1 {
+    font-size: 22px;
+    line-height: 28px;
+    padding: 0 10px;
+}
+
+
+p {
+    font-size: 18px;
+    padding: 0 10px 0 10px;
+}
+
+#block1, 
+#block8  {
+    height: 400px;
+}
+
+#block2, 
+#block3, 
+#block4, 
+#block5, 
+#block6, 
+#block7  {
+    height: 200px;
+}
+
+#block2, #block4 {
+    background-color: #4257ad;
+}
+
+#block3, #block6 {
+    background-color: #d0fef5; 
+}
+
+#block5, #block7 {
+    background-color: #4f9ea8;
+}
+
+.serif {
+    font-family: 'Quattrocento', serif;
+}
+
+.sans {
+    font-family: 'Oswald', sans-serif;
+}
+
+.tall {
+    background-color: #f16059;
+    font-weight: lighter;
+    line-height: 24px;
+}
+
+.parent {
+    border: 10px solid #e4dfda;
+    clear: both: 
+    margin: 0px;
+    overflow: auto;
+    padding: 0px;
+    width:400px;
+}
