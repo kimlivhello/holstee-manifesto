@@ -11,11 +11,6 @@
 /* font-family: 'Oswald', sans-serif; */
 /* font-family: 'Quattrocento', serif; */
 
-/* header 1 font size 42, spacing 12pts between*/
-/* header 2 font size 19 */
-/* p text size 14, spacing 6 */
-
-
 body {
     width: 420px;
 }
@@ -34,8 +29,8 @@ section {
 }
 
 section h1 {
-    font-size: 22px;
-    line-height: 28px;
+    font-size: 20px;
+    line-height: 24px;
     padding: 0 10px;
 }
 
@@ -60,33 +55,40 @@ p {
 }
 
 #block2, #block4 {
-    background-color: #4257ad;
+    background-color: #1a8fe3;
 }
 
 #block3, #block6 {
-    background-color: #d0fef5; 
+    background-color: #e6c229; 
 }
 
 #block5, #block7 {
-    background-color: #4f9ea8;
+    background-color: #f17105;
 }
 
 .serif {
-    font-family: 'Quattrocento', serif;
+    font-family: 'Comfortaa', cursive;
+    color: #e6e6e6;
+}
+
+.emph {
+    font-weight: bold;
+    text-decoration: underline;
 }
 
 .sans {
-    font-family: 'Oswald', sans-serif;
+    color: #1D1E2c;
+    font-family: 'Comfortaa', cursive;
+    font-weight: bold;
 }
 
 .tall {
-    background-color: #f16059;
-    font-weight: lighter;
+    background-color: #d11149;
     line-height: 24px;
 }
 
 .parent {
-    border: 10px solid #e4dfda;
+    border: 10px solid #1D1E2c;
     clear: both: 
     margin: 0px;
     overflow: auto;
